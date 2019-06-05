@@ -222,7 +222,7 @@
                         sortable: true,
                     },{ header: 'Action', width: 50, xtype:'actioncolumn',
                         items : [{
-                            icon    : 'images/delete.png',
+                            icon    : "{{ URL::asset('/img/close16x16.svg') }}", 
                             tooltip : 'Delete',
                             handler : function(gView, rowIndex, colIndex) {
                                 var grid = gView.up('grid');
